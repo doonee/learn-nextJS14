@@ -1,11 +1,10 @@
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
+import { API_URL } from "../constant";
 
 export const metadata = {
   title: "Home page",
 };
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 /** 서버 컴포넌트는 가져온 data를 caching 해주기 때문에
  * 새로고침을 하더라도 서버에 요청을 보내지 않는다.
