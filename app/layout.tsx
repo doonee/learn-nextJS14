@@ -1,4 +1,5 @@
 import Navigation from "../components/navigation";
+import "../styles/global.css";
 
 export const metadata = {
   title: { template: "%s | Title 변경 테스트", default: "Title 변경 테스트" },
